@@ -89,6 +89,11 @@ namespace UserCore.Services
             }
         }
 
+        public void Get(string id)
+        {
+            
+        }
+
         public async Task<DonViResponse> Update(Guid id, string currentUser, DonViRequest model)
         {
             try

@@ -49,7 +49,7 @@ namespace UserCore.Controllers
                     Result = data
                 };
 
-                //return Ok(result);
+                return Ok(result);
             }
             catch (Exception)
             {
