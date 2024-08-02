@@ -70,7 +70,7 @@ namespace UserCore.Services
         /// <returns></returns>
         public Task<bool> CheckExistUser(string tenDangNhap)
         {
-            var checkExist = _dbContext.NguoiDung.FirstOrDefault(x => !x.DaXoa && x.TenDangNhap != tenDangNhap);
+            var checkExist = _dbContext.NguoiDung.FirstOrDefault(x => !x.DaXoa && x.TenDangNhap !== tenDangNhap);
 
             if (checkExist == null)
             {
