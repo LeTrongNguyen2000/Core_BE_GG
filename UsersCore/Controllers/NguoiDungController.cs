@@ -21,7 +21,7 @@ namespace UserCore.Controllers
         public readonly INguoiDungService _services;
 
         /// <summary>
-        /// Contractor Quyen
+        /// Contractor Quyen ergrtgrthrth
         /// </summary>
         /// <param name="services"></param>
         public NguoiDungController(INguoiDungService services)
